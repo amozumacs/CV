@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&family=Inter:wght@600&family=Roboto:ital,wght@1,300&display=swap');
 
-html{
+html {
     font-family: 'Inter', sans-serif;
     font-size:medium;
     color: #FEFEE3;
@@ -9,7 +9,7 @@ html{
     height:100%;
 }
 
-body{
+body {
    display:flex;
    flex-direction:row;
    background-color:#534B62;
@@ -17,56 +17,56 @@ body{
    margin:0px;
 }
 
-.cv{
+.cv {
     flex:1;
     background-color:#1B1725;
     text-align:center;
     border-right: solid #FEFEE3 3px;
 }
 
-.cv > p:not(.contacts){
+.cv > p:not(.contacts) {
     line-height:1.8;
     padding-left:20px;
     padding-right:20px;
 }
 
-.name{
+.name {
     margin-bottom:50px;
     line-height:0;
 }
 
-.name2{
+.name2 {
     padding-top:30px;
     line-height:0;
 }
 
-.studies > p{
+.studies > p {
     margin-bottom:20px;
 }
 
-h2, .cv > h4{
+h2, .cv > h4 {
     color:#FEFEE3;
 }
 
-h2:hover:not(.name), h3:hover,li:hover, .name:hover, h1:hover{
+h2:hover:not(.name), h3:hover,li:hover, .name:hover, h1:hover {
     color:#D4D6B9;
 }
 
-.underline{
+.underline {
     border-bottom: solid #FEFEE3 5px;
     width:25%;
     padding-left:10px;
     padding-bottom:5px;
 }
 
-.lower{
+.lower {
     flex:1.5;
     padding-top:15px;
     padding-left:100px;
     line-height:1;
 }
 
-p, .cv > li{
+p, .cv > li {
     color:#E3E3E3;
 }
 
@@ -79,22 +79,22 @@ img.profile {
 }
 
 
-ul{
+ul {
     list-style-type: square;
     text-align: left;
     padding-left:80px;
     line-height:1.8;
 }
 
-.cv > h4{
+.cv > h4 {
     padding-top:10px;
 }
 
-.list{
+.list {
     padding-bottom:10px;
 }
 
-.contacts{
+.contacts {
     line-height:0;
     margin-top:40px;
 }
@@ -105,13 +105,13 @@ p img {
     height:18px;
 }
 
-.lower p{
+.lower p {
     font-family: 'Roboto', sans-serif;
     line-height:0.5;
     font-size:18px;
 }
 
-.cv ul, .cv h1, .cv h4{
+.cv ul, .cv h1, .cv h4 {
     font-family: 'Archivo Narrow', sans-serif;
 }
 
@@ -123,7 +123,7 @@ p img {
 }
 
 
-.lower h3, .lower p{
+.lower h3, .lower p {
     padding-left:30px;
 }
 
